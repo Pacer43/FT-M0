@@ -7,32 +7,57 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+  display: block;
+  text-align: center;
 }
-
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
-
+h1 {
+  /*Es codigo es display:none pero como ya quedo definido el header, ya no hace falta ocultarlo, ademas se ve aceptable*/
+}
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+#ejercicioTres {
+  padding-left: 200px;
+  padding-top: 100px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
-
+#ejercicioCuatro {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 95px;
+  z-index: 100;
+}
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
-
-
+#ejercicioCinco {
+  display: flex;
+}
 
 /* Ejercicio 6. */
+#ejercicioCinco {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+}
+
+/*Ejercicio 7*/
+#ejercicioSiete {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
