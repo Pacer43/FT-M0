@@ -13,6 +13,7 @@ img {
   border-color: blueviolet;
   border-style: hidden;
   background-color: brown;
+  border: 10px solid black;
 }
 
 #spanId {
