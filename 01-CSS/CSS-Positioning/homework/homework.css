@@ -14,8 +14,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-h1 {
-  /*Es codigo es display:none pero como ya quedo definido el header, ya no hace falta ocultarlo, ademas se ve aceptable*/
+
+#ejercicioDos {
+  display: none;
 }
 
 /* Ejercicio 3: */
@@ -23,6 +24,7 @@ h1 {
 /* Acá va tu código */
 
 #ejercicioTres {
+  position: absolute;
   padding-left: 200px;
   padding-top: 100px;
 }
@@ -43,16 +45,15 @@ h1 {
 /* Acá va tu código */
 #ejercicioCinco {
   display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+  align-content: center;
+
+  flex-wrap: nowrap;
 }
 
 /* Ejercicio 6. */
-#ejercicioCinco {
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: row-reverse;
-  flex-wrap: nowrap;
-}
 
 /*Ejercicio 7*/
 #ejercicioSiete {
